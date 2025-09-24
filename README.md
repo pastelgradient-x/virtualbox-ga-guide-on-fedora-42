@@ -1,4 +1,4 @@
-# virtualbox-ga-on-fedora-42
+# virtualbox-ga-guide-on-fedora-42
 **pastelgradient's** Guide — How To Remove Fedora’s Default VirtualBox Guest Additions & Reinstall Them from ISO on Fedora 42 Workstation. 
 
 Introduction :  
