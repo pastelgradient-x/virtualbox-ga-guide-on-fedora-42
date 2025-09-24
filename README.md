@@ -1,8 +1,9 @@
 # virtualbox-ga-on-fedora-42
-Guide: Remove Fedora’s Default VirtualBox Guest Additions & Reinstall from ISO on Fedora 42 Workstation
-Introduction
-Fedora Workstation sometimes comes with the default "virtualbox-guest-additions" package pre-installed, but for better compatibility (clipboard integration, auto-resize, seamless mode, etc.), it's often recommended to remove it and reinstall the official version from the VirtualBox ISO.
-With the following commands, you will be able to ensure removing everything related to VirtualBox—including default Guest Additions packages and any other VirtualBox components—which helps prevent potential conflicts during the ISO-based reinstallation.
+**pastelgradient's** Guide — How To Remove Fedora’s Default VirtualBox Guest Additions & Reinstall Them from ISO on Fedora 42 Workstation. 
+
+Introduction :  
+Fedora Workstation 42 comes with the default "virtualbox-guest-additions" package pre-installed. For better compatibility (clipboard integration, auto-resize, seamless mode, etc.), it is recommended to use the latest version by removing the default package and reinstalling the Guest Additions from the official VirtualBox ISO.  
+With the following commands, it is possible to ensure that everything related to VirtualBox—including default Guest Additions packages and any other VirtualBox components—is removed, which helps prevent potential conflicts during the ISO-based reinstallation.
 
 # Commands
 ```bash
@@ -22,3 +23,4 @@ sudo sh ./VBoxLinuxAdditions.run
 sudo usermod -aG vboxsf $(whoami)
 sudo reboot -f
 ```
+Thanks for using my Guide and don't hesitate to contribute to it !
