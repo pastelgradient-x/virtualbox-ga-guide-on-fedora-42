@@ -10,7 +10,7 @@ With the following commands, it is possible to ensure that everything related to
 
 [***Install***](https://github.com/pastelgradient-x/virtualbox-ga-guide-on-fedora-42/blob/main/install-ga) Virtualbox's Guest Additions.
 
-[***Tuning***]() Incoming Update in progress.
+[***Tuning***](https://github.com/pastelgradient-x/virtualbox-ga-guide-on-fedora-42/blob/main/tuning.md) Incoming Update in progress.
 
 Thank you for using this guide! If you found it helpful or have ideas for improvement, contributions and feedback are always welcome. Don’t hesitate to suggest changes or share your experiences with the guide!
 
