@@ -1,0 +1,17 @@
+# -------- Install Guest Additions --------
+
+# 1. Ensure ISO is still mounted, otherwise remount.
+cd /run/media/$(whoami)/VBox_GAs_7.2.2
+
+# 2. Uninstall Any Existing Guest Additions Again (in some rare cases, I found Guest Additions still present, and this fixed the issue).
+sudo sh ./VBoxLinuxAdditions.run uninstall
+
+# 3. Install Official Guest Additions from ISO.
+sudo sh ./VBoxLinuxAdditions.run
+
+# 4. Add User to vboxsf Group (to enable shared folders).
+sudo usermod -aG vboxsf $(whoami)
+
+# 5. Final Reboot (to load fresh modules and group settings).
+sudo reboot
+# sudo reboot -f (if not working).
